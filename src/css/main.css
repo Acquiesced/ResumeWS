@@ -1,0 +1,35 @@
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: black;
+    font-size: 11pt;
+    background-color: white;
+}
+
+h1{
+    font-size: 24pt;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
