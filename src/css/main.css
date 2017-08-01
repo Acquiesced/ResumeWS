@@ -1,13 +1,38 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+
+html{
+    font: inherit;
+}
+
 body{
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    color: black;
-    font-size: 11pt;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+	vertical-align: baseline; 
     background-color: white;
 }
 
-h1{
-    font-size: 24pt;
+#banner{
+    padding: 4em 0 4em 0; 
+    background-image: url('../../images/banner.jpg');
+    color: white;
 }
+
+.center {
+    margin: auto;
+    text-align: center;
+    width:50%;
+    padding: 5px;
+}
+
+h1{
+    font-size: 28pt;
+    margin-left: 5px;
+    margin-top: 5px;
+}   
 
 li {
     float: left;
@@ -15,7 +40,7 @@ li {
 
 li a {
     display: inline-block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,13 +48,17 @@ li a {
 
 li a:hover {
     background-color: #111;
+    opacity: 0.5;
     color: white;
 }
 
 ul {
+    position: relative;
+    bottom: -63px;
+    vertical-align: bottom;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    /*background-color: white;*/
 }
