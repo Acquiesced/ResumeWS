@@ -3,10 +3,12 @@
 
 html{
     font: inherit;
+    height: 100%;
 }
 
 body{
-    margin: 0;
+    height: 100%;
+    margin:0;
 	padding: 0;
 	border: 0;
     font-size: 100%;
@@ -15,24 +17,59 @@ body{
     background-color: white;
 }
 
-#banner{
-    padding: 4em 0 4em 0; 
-    background-image: url('../../images/banner.jpg');
-    color: white;
+.profile{
+    height:1000px;
+    background-color:white;
+    color: black;
+    font-size:14pt;
 }
 
 .center {
-    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 35%;
     text-align: center;
-    width:50%;
-    padding: 5px;
+}
+
+.parallaxBanner {
+    /* The image used */
+    background-image: url('../../images/banner.jpg');
+
+    /* Full height */
+    height:35%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
-    font-size: 28pt;
-    margin-left: 5px;
-    margin-top: 5px;
+    position: absolute;
+    font-size: 35pt;
+    color: white;
 }   
+
+h2{
+    position: relative;
+    font-size: 18pt;
+    margin-left: 3%;
+    color: black;
+} 
+
+h3{
+    position: absolute;
+    font-size: 10pt;
+    color: white;
+}
+
+p{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
 
 li {
     float: left;
@@ -53,8 +90,8 @@ li a:hover {
 }
 
 ul {
-    position: relative;
-    bottom: -63px;
+    position: absolute;
+    bottom: 65%;
     vertical-align: bottom;
     list-style-type: none;
     margin: 0;
