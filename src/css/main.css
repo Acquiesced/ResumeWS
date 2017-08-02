@@ -24,11 +24,12 @@ body{
     font-size:14pt;
 }
 
-.center {
+.bannerCenter {
+    /*god damn it*/
     position: absolute;
-    top: 10%;
-    left: 35%;
-    text-align: center;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
 }
 
 .parallaxBanner {
