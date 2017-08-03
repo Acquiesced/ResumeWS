@@ -46,6 +46,15 @@ div{
     font-size:14pt;
 }
 
+.education{
+    position: relative;
+    height:825px;
+    background-color:#f4f4f4;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14pt;
+}
+
 .bannerCenter {
     /*god damn it*/
     position: absolute;
