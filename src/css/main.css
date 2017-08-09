@@ -115,6 +115,11 @@ h1{
     color: white;
 }   
 
+h1 a{
+    color: white; 
+    text-decoration:none;
+}
+
 h2{
     position: relative;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
