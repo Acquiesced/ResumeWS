@@ -24,7 +24,6 @@ div{
     font-size: 18px;
     line-height: 1.4em;
     vertical-align: top;
-    border-radius: 0.5em;
     padding: 1em;
     box-sizing: border-box;
     width: 100%;
@@ -35,11 +34,12 @@ div{
     float: left;
     width: 47%;
     margin: 1.5%;
+    border-radius: 0.5em;
 }
 
 .profile{
     position: relative;
-    height:825px;
+    height:80vh;
     background-color:#f4f4f4;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,7 +48,7 @@ div{
 
 .education{
     position: relative;
-    height:825px;
+    height:80vh;
     background-color:#f4f4f4;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
