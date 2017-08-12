@@ -36,7 +36,6 @@ body{
 }
 
 .profile{
-    position: relative;
     height:82vh;
     background-color:#f4f4f4;
     color: black;
@@ -73,6 +72,7 @@ body{
 }
 
 .parallaxBanner {
+    margin: 0;
     /* The image used */
     background-image: url('../../images/banner.jpg');
 
