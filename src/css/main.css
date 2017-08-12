@@ -82,7 +82,7 @@ body{
     background-size: cover;
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 1000px) {
     .navbar{
         font-family: "Raleway", Arial, Helvetica, sans-serif;
         font-size:12pt;
