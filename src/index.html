@@ -4,15 +4,24 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Bradley A. Chow Resume</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Main index of Resume Site">
     <meta name="author" content="bchow">
 
+    <title>Bradley A. Chow Resume</title>
     <!-- Javascript Links -->
     <script type="text/javascript" src="js/scripts.js" async></script>
     <!--JQuery Link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- CSS File Link -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Custom CSS File Link -->
     <link rel="stylesheet" href="css/main.css">
 
     <!--[if lt IE 9]>
@@ -21,12 +30,23 @@
 </head>
 
 <body>
-    <section class="parallaxBanner", id = "home">
+    <section class="parallaxBanner" , id="home">
         <h1 class="bannerCenter"> <a href="index.html">Bradley Alexander Chow</a>
         </h1>
         <h3 class="bannerh3Center">
             A Web Resume, Built Painstakingly From Scratch
         </h3>
+
+        <nav class="navbar navbar-inverse" role="navigation" style="margin-top:100px;">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+            </div>
+        </nav>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#profile">Profile</a></li>
@@ -38,7 +58,7 @@
         </ul>
     </section>
 
-    <div class="profile", id="profile">
+    <div class="profile" , id="profile">
         <h2>
             Profile
         </h2>
@@ -68,17 +88,18 @@
             </div>
         </div>
     </div>
-    <div class="education", id ="education">
+    <div class="education" , id="education">
         <hr>
         <h2>
             Education
         </h2>
-        <div class = "panel">
-            Bachelor of Science (Honours), Computer Science	Sept 2010 – Dec 2016
+        <div class="panel">
+            Bachelor of Science (Honours), Computer Science Sept 2010 – Dec 2016
             <br></br>
             Ryerson University, Toronto, Ontario
             <br></br>
-            Courses Focusing on: Object Oriented Programming, Data Structures, Information Retrieval and Analysis, Software Engineering, Java, Operating System Development
+            Courses Focusing on: Object Oriented Programming, Data Structures, Information Retrieval and Analysis, Software Engineering,
+            Java, Operating System Development
         </div>
     </div>
 </body>

@@ -20,15 +20,6 @@ body{
     background-color: white;
 }
 
-div{
-    font-size: 18px;
-    line-height: 1.4em;
-    vertical-align: top;
-    padding: 1em;
-    box-sizing: border-box;
-    width: 100%;
-}
-
 .float{
     background: white;
     float: left;
@@ -115,13 +106,18 @@ h1{
     position: absolute;
     font-size: 35pt;
     color: white;
-}   
+    text-decoration:none;
+} 
 
 h1 a{
     color: white; 
     text-decoration:none;
 }
 
+h1 :hover{
+    color: white; 
+    text-decoration:none;
+}
 h2{
     position: relative;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
