@@ -153,6 +153,9 @@ p{
     font-size: 14pt;
 }
 
+.skillsli{
+    padding: 5px;
+}
 li a {
     display: inline-block;
     color: white;
