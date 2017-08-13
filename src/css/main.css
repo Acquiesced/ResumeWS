@@ -222,6 +222,7 @@ li a:hover {
     }
 
     .imgeducation {
-    padding-top: 0px;
+        width:10em;
+        padding-top: 0px;
     }
 }
