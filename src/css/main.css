@@ -169,6 +169,13 @@ li a:hover {
     color: white;
 }
 
+.imgSkillLogo{
+    width: 100px;
+}
+
+.textcenter{
+    text-align: center;
+}
 
 @media (max-width: 1024px) {
     .navbar{
