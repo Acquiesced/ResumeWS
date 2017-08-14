@@ -173,6 +173,10 @@ li a:hover {
     width: 100px;
 }
 
+.imgEducation{
+    width: 200px;
+}
+
 .textcenter{
     text-align: center;
 }
@@ -216,6 +220,9 @@ li a:hover {
     .collapse.in{
         display:block !important;
     }
+    .imgSkillLogo{
+        width: 75px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -225,5 +232,9 @@ li a:hover {
 
     h6{
         padding-top:50px;
+    }
+
+    .imgSkillLogo{
+        width: 75px;
     }
 }
