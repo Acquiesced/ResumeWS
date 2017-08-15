@@ -68,7 +68,7 @@ body{
 .parallaxBanner {
     margin: 0;
     /* The image used */
-    background-image: url('../images/banner.jpg');
+    background-image: url('../images/banner_new.jpg');
 
     /* Full height */
     height:400px;
