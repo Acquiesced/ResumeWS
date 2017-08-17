@@ -1,1 +1,1 @@
-document.getElementById('notClickable').ondragstart = function() { return false; };
+document.getElementById('parallaxBanner1').ondragstart = function() { return false; };
