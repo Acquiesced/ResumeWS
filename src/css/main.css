@@ -58,6 +58,7 @@ body{
 
 .bannerh6Center{
     margin: 0;
+    color: black;
     position: absolute;
     text-align: center;
     left: 50%;
@@ -116,21 +117,20 @@ well{
 h1{
     font-size: 38pt;
     font-size: 4vw;
-    color: white;
+    color: black;
     text-decoration:none;
 } 
 
 h1 a{
-    color: white; 
+    color: black; 
     text-decoration:none;
 }
 
 h1 :hover{
-    color: white; 
+    color: black; 
     text-decoration:none;
 }
 
-h1 :
 
 h2{
     position: relative;
@@ -148,10 +148,10 @@ h6{
 hr {    
     align-content: center;
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
     border-style: inset;
     border-width: 1px;
 } 
@@ -230,13 +230,17 @@ li a:hover {
     .collapse.in{
         display:block !important;
     }
+    h1{
+        font-size: 30pt;
+    }
 }
 
 @media (max-width: 768px) {
     h1{
-        font-size: 20pt;
+        font-size: 25pt;
     } 
 
     h6{
         padding-top:50px;
     }
+}
