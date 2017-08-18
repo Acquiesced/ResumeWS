@@ -8,8 +8,8 @@ html{
 }
 
 body{
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
     margin-top:0;
 	padding: 0;
 	border: 0;
@@ -93,8 +93,8 @@ well{
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-size:12pt;
     font-weight: 900;
-    margin-left:10vw;
-    margin-right:10vw;
+    margin-left:12vw;
+    margin-right:12vw;
 }
 
 .imgprofile {
@@ -210,7 +210,7 @@ li a:hover {
         padding-top:50px;
     }
 }
-@media(max-width:992px){
+@media(max-width:1060px){
      .navbar{
         font-family: "Raleway", Arial, Helvetica, sans-serif;
         font-size:12pt;
@@ -253,9 +253,11 @@ li a:hover {
         font-size: 30pt;
     }
 }
-@media(max-width:1200px){
+
+@media(max-width:1120px){
     .navbar{
         font-family: "Raleway", Arial, Helvetica, sans-serif;
-        font-size:11.2pt;
+        font-size:10.8pt;
+        padding:0px;
     }
 }
