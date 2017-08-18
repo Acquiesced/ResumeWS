@@ -198,7 +198,7 @@ li a:hover {
         padding-top:50px;
     }
 }
-@media(max-width:1060px){
+@media(max-width:992px){
      .navbar{
         font-family: "Raleway", Arial, Helvetica, sans-serif;
         font-size:12pt;
