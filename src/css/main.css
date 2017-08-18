@@ -185,11 +185,14 @@ li a:hover {
     color: white;
 }
 
-.imgSkillLogo{
+.img-skill-logo{
     width: 75px;
 }
 
-.imgEducation{
+.img-work{
+    width: 80px;
+}
+.img-education{
     width: 200px;
 }
 
