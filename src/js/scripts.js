@@ -1,10 +1,10 @@
-
 /*
 * Function runs on the doc, checking if a scroll action has happened. 
 * If the page scrolls down, fade.
 * If the page scrolls up, appear.
 * @return void
 */
+
 (function ($) {
     $(document).ready(function () {
         var prevScrollTop = 0;
