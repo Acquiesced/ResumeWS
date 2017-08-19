@@ -17,6 +17,21 @@ body{
     background-color: white;
 }
 
+.footer-right{
+    float: right;
+}
+
+.footer-hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    color :black;
+    height: 1px;
+    border: none;
+}
+
 header{
     font-weight:600;
 }
