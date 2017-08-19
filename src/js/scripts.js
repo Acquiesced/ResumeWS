@@ -1,22 +1,25 @@
-//basics of hiding nav bar, gotta figure it out my self further for hide on scroll down, show on scroll up.
-//gonna have to math it
 
+/*
+* Function runs on the doc, checking if a scroll action has happened. 
+* If the page scrolls down, fade.
+* If the page scrolls up, appear.
+* @return void
+*/
 (function ($) {
-  $(document).ready(function(){
-	// fade in .navbar
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 10) {
-				$('.navbar').fadeOut();
-			} else {
-				$('.navbar').fadeIn();
-			}
-		});
+    $(document).ready(function () {
+        var prevScrollTop = 0;
+        const scrollDelta = 5;
+        $(window).scroll(function (event) {
+            var currScrollTop = $(this).scrollTop();
+            var scrollDiff = currScrollTop - prevScrollTop;
+            if (currScrollTop > prevScrollTop) {
+                $('.navbar').fadeOut();
+            } else {
+                $('.navbar').fadeIn();
+            }
+            prevScrollTop = currScrollTop;
+        });
+    });
+}(jQuery));
 
-	
-	});
-
-});
-  }(jQuery));
-
-  document.getElementById('parallaxBanner1').ondragstart = function () { return false; };
+document.getElementById('parallaxBanner1').ondragstart = function () { return false; };
