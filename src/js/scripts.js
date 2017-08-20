@@ -8,7 +8,7 @@
 (function ($) {
     $(document).ready(function () {
         var prevScrollTop = 0;
-        const scrollDelta = 50; //pixels
+        const scrollDelta = 75; //pixels
 
         $(window).scroll(function (event) {
             var currScrollTop = $(this).scrollTop();
