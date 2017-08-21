@@ -217,7 +217,6 @@ li a:hover {
 
 .overlay-text {
   color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -236,6 +235,13 @@ li a:hover {
 
 .project-spacer {
   padding-top: 1vh;
+}
+
+.projects-title {
+  font-size: 2vw;
+}
+.projects-desc {
+  font-size: 1vw;
 }
 
 @media (max-width: 576px) {
