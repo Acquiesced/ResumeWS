@@ -212,7 +212,7 @@ li a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(70, 70, 70, 0.57);
+  background-color: rgba(51, 50, 50, 0.57);
 }
 
 .overlay-text {
