@@ -8,7 +8,7 @@
 (function ($) {
     $(document).ready(function () {
         var prevScrollTop = 0;
-        const scrollDelta = 75; //pixels
+        const scrollDelta = 100; //pixels
 
         $(window).scroll(function (event) {
             var currScrollTop = $(this).scrollTop();
@@ -20,7 +20,6 @@
 
             }
             if (Math.abs(scrollDiff) > scrollDelta) {
-                console.log(scrollDiff);
                 if (currScrollTop > prevScrollTop) {
                     $('.navbar').fadeOut();
                 }
