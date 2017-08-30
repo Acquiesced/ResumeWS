@@ -2,309 +2,327 @@
 @import "https://fonts.googleapis.com/css?family=Raleway:100, 300, 600";
 
 html {
-  height: 100%;
-  background-color: white;
+    height: 100%;
+    background-color: white;
 }
 
 body {
-  margin-left: 12vw;
-  margin-right: 12vw;
-  margin-top: 0;
-  padding: 0;
-  border: 0;
-  font-family: 'Open Sans', sans-serif;
-  vertical-align: baseline;
-  background-color: white;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: baseline;
+    background-color: white;
 }
 
-.well {
-  background-color: white;
-  max-width: 1200px;
+.content-panel {
+    padding-bottom: 2em;
 }
 
 .footer-right {
-  float: right;
+    float: right;
 }
 
 .footer-hr {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  background-color: black;
-  color: black;
-  height: 1px;
-  border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    color: black;
+    height: 1px;
+    border: none;
 }
 
 header {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .bannerCenter {
-  /*damn it*/
-  margin: 0;
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  top: 200px;
-  transform: translate(-50%, -50%);
+    /*damn it*/
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
 }
 
 .bannerh6Center {
-  margin: 0;
-  color: black;
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  top: 350px;
-  transform: translate(-50%, -50%);
+    margin: 0;
+    color: black;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
 }
 
 .parallaxBanner {
-  margin: 0;
-  /* The image used */
-  background-image: url('../images/banner_new.jpg');
-  /* Full height */
-  height: 400px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+    margin: 0;
+    /* The image used */
+    background-image: url('../images/banner_new.jpg');
+    /* Full height */
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .navbar {
-  background-color: white;
-  border: 0;
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-size: 12pt;
-  font-weight: 900;
-  margin-left: 12vw;
-  margin-right: 12vw;
+    background-color: white;
+    border: 0;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: 900;
+    margin-left: 12vw;
+    margin-right: 12vw;
 }
 
 .imgprofile {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .landscape {
-  height: 30px;
-  width: 80px;
+    height: 30px;
+    width: 80px;
 }
 
 .square {
-  height: 75px;
-  width: 75px;
+    height: 75px;
+    width: 75px;
 }
 
 .skillRowFix {
-  margin: 0;
+    margin: 0;
 }
 
 h1 {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-size: 38pt;
-  font-size: 4vw;
-  font-weight: 500;
-  color: black;
-  text-decoration: none;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 38pt;
+    font-size: 4vw;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
+
 a:link {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
+
 a:visited {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
+
 a:hover {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
+
 a:active {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 h1 a {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 h1 :hover {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 h2 {
-  position: relative;
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-size: 18pt;
-  margin-left: 1.5%;
-  color: black;
+    position: relative;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    margin-left: 1.5%;
+    color: black;
 }
 
 h6 {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-size: 10pt;
-  color: white;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
 }
 
 hr {
-  align-content: center;
-  display: block;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-left: 25%;
-  margin-right: 25%;
-  border-style: inset;
-  border-width: 1px;
+    align-content: center;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: inset;
+    border-width: 1px;
 }
 
 .skillsli {
-  padding: 5px;
+    padding: 5px;
 }
 
 li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
-  opacity: 0.5;
-  color: white;
+    background-color: #111;
+    opacity: 0.5;
+    color: white;
 }
 
 .img-skill-logo {
-  width: 75px;
+    width: 75px;
 }
 
 .img-work {
-  width: 80px;
+    width: 80px;
 }
+
 .img-education {
-  width: 200px;
+    width: 200px;
 }
 
 .textcenter {
-  text-align: center;
+    text-align: center;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(51, 50, 50, 0.57);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(51, 50, 50, 0.57);
 }
 
 .overlay-text {
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  right: 10%;
-  transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
 }
 
 .project-image {
-  position: relative;
-  display: block;
+    position: relative;
+    display: block;
 }
 
 .project-image:hover .overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .project-spacer {
-  padding-top: 1vh;
+    padding-top: 1vh;
 }
 
 .projects-title {
-  font-size: 2vw;
+    font-size: 2vw;
 }
+
 .projects-desc {
-  font-size: 1.2vw;
+    font-size: 1.2vw;
 }
 
 @media (max-width: 576px) {
 }
-@media (max-width: 768px) {
-  h1 {
-    font-size: 25pt;
-  }
 
-  h6 {
-    padding-top: 50px;
-  }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25pt;
+    }
+
+    h6 {
+        padding-top: 50px;
+    }
 }
+
 @media (max-width: 992px) {
-  .navbar {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-  }
-  .navbar-header {
-    float: none;
-  }
-  .navbar-left,
-  .navbar-right {
-    float: none !important;
-  }
-  .navbar-toggle {
-    display: block;
-  }
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-  .navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-  .navbar-nav {
-    float: none !important;
-    margin-top: 7.5px;
-  }
-  .navbar-nav > li {
-    float: none;
-  }
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .collapse.in {
-    display: block !important;
-  }
-  h1 {
-    font-size: 30pt;
-  }
+    .navbar {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    h1 {
+        font-size: 30pt;
+    }
 }
 
 @media (max-width: 1120px) {
-  .navbar {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-    font-size: 10.8pt;
-    padding: 0px;
-  }
+    .navbar {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: 10.8pt;
+        padding: 0px;
+    }
 }
